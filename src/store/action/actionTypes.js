@@ -1,0 +1,5 @@
+export const ADD_TODOS = "ADD_TODOS"
+export const DELETE_TODOS = "DELETE_TODOS"
+export const UPDATE_TODOS = "UPDATE_TODOS"
+export const START_EDIT = "START_EDIT"
+export const STOP_EDIT = "STOP_EDIT"
