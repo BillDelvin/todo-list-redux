@@ -2,7 +2,6 @@ import * as actionTypes from "../action/actionTypes"
 
 const initialState = []
 let countId = 0
-// let editIndex
 
 const addTodo = (state, payload) => {
   return [

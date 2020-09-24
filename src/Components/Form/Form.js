@@ -97,9 +97,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    addTodo: (value) => {
-      dispatch(AddTodos(value))
-    },
+    addTodo: (value) => dispatch(AddTodos(value)),
     deleteTodo: (id) => dispatch(DeleteTodos(id)),
     updateData: (value) => dispatch(UpdateData(value)),
   }
