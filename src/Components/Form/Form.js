@@ -103,10 +103,4 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-// const mapDispatchToProps = {
-//   AddTodos,
-//   DeleteTodos,
-//   UpdateData,
-// }
-
 export default connect(mapStateToProps, mapDispatchToProps)(Form)
